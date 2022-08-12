@@ -42,7 +42,7 @@ back.addEventListener('click', goBack);
 
 function googleItUrl() {
     window.open(
-        'https://letmegooglethat.com/?q=' + googleValue,
+        'https://www.google.com/search?q=' + googleValue,
         '_blank'
     );
 }
