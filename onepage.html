@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Things to Do - Stay Active When You're Bored</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="/assets/style/features.css" rel="stylesheet">
+    <link href="/assets/style/heroes.css" rel="stylesheet">
+    <link href="/assets/style/browserFix.css" rel="stylesheet">
+    <link href="/assets/style/radioButtons.css" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <img class="bi me-2" src="/assets/img/bored.svg" width="40" height="32">
+          <span class="fs-4">Bored</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#choose-activity" class="nav-link active" aria-current="page">Get started</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </header>
+      </div>
+
+    <!-- HERO SECTION -->
+    <main>
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="assets/img/sleepy.svg" alt="" width="292" height="277">
+        <h1 class="display-5 fw-bold">Bored? We Got You.</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Find Things to Do - Stay Active When You're Bored.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="#choose-activity"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Get started</button></a>
+            <a href="#featured-3"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn more</button></a>
+          </div>
+        </div>
+      </div>
+
+    <!-- FEATURES SECTION -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="people-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </symbol>
+        <symbol id="collection" viewBox="0 0 16 16">
+          <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"/>
+        </symbol>
+        <symbol id="speedometer" viewBox="0 0 16 16">
+          <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+          <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z"/>
+        </symbol>
+      </svg>
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="display-7 fw-bold">Why getting started with Bored?</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
+            </div>
+            <p class="lead mb-2">Always available</p>
+            <p>Bored is always available - 24/7.</p>
+            <a href="#choose-activity" class="d-inline-flex align-items-center">
+              Get Started
+            </a>
+          </div>
+          <div class="feature col ">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+            </div>
+            <p class="lead mb-2">"You" oriented</p>
+            <p>You choose what to do when you're bored.</p>
+            <a href="#choose-activity" class="d-inline-flex align-items-center">
+              Choose Your Activity
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#speedometer"/></svg>
+            </div>
+            <p class="lead mb-2">Faster solution</p>
+            <p>Get to a solution without thinking.</p>
+            <a href="#choose-activity" class="d-inline-flex align-items-center">
+              Find Solution Now
+            </a>
+          </div>
+        </div>
+      </div>
+    
+
+    <!-- FUNCTION SECTION -->
+    <div class="container px-4 py-5" id="choose-activity">
+    <h3 class="pb-2 border-bottom">Choose Your Activity Type</h3>
+    <div class="row g-4 py-5 row-cols-lg-3">
+      <div>
+        <input type="radio" id="education" name="select" value="education">
+        <label for="education">
+          <p class="lead mb-3 fw-bold">Education</p>
+          <p class="lead mb-2">Education can be a very engaging and interesting experience.</p>
+        </label>
+      </div>
+        <div>
+        <input type="radio" id="recreational" name="select" value="recreational">
+        <label for="recreational">
+          <p class="lead mb-3 fw-bold">Recreational</p>
+          <p class="lead mb-2">Never stop improving yourself.</p>
+        </label>
+      </div>
+      <div>
+        <input type="radio" id="social" name="select" value="social">
+        <label for="social">
+          <p class="lead mb-3 fw-bold">Social</p>
+          <p class="lead mb-2">Fight boredom with someone else who's bored too.</p>
+        </label>
+      </div>
+      <div>
+        <input type="radio" id="diy" name="select" value="diy">
+        <label for="diy">
+          <p class="lead mb-3 fw-bold">DIY</p>
+          <p class="lead mb-2">Sometimes you just need to make something out of your own hands.</p>
+        </label>
+      </div>
+        <div>
+        <input type="radio" id="charity" name="select" value="charity">
+        <label for="charity">
+          <p class="lead mb-3 fw-bold">Charity</p>
+          <p class="lead mb-2">Make someone else's life better and yours will become better too.</p>
+        </label>
+      </div>
+      <div>
+        <input type="radio" id="cooking" name="select" value="cooking">
+        <label for="cooking">
+          <p class="lead mb-3 fw-bold">Cooking</p>
+          <p class="lead mb-2">Are you bored or just hungry?</p>
+        </label>
+      </div>
+      <div>
+        <input type="radio" id="relaxation" name="select" value="relaxation">
+        <label for="relaxation">
+          <p class="lead mb-3 fw-bold">Relaxation</p>
+          <p class="lead mb-2">Take a break from the monotonous life and simply relax.</p>
+        </label>
+      </div>
+        <div>
+        <input type="radio" id="music" name="select" value="music">
+        <label for="music">
+          <p class="lead mb-3 fw-bold">Music</p>
+          <p class="lead mb-2">Escape to a different world of sound.</p>
+        </label>
+      </div>
+      <div>
+        <input type="radio" id="busywork" name="select" value="busywork">
+        <label for="busywork">
+          <p class="lead mb-3 fw-bold">Busywork</p>
+          <p class="lead mb-2">Switch from doing things you don't enjoy to doing something useful.</p>
+        </label>
+      </div>
+    </div>
+  </div>
+
+    <!-- RESULTS SECTION -->
+    <div class="container px-4 py-5" id="result" hidden>
+    <h4 class="pb-2 border-bottom">Your Result</h2>
+      <div class="row g-4 py-5 row-cols-1">
+        <h5 class="pb-7 d-flex justify-content-center fw-bold" id="show-result"></h5>
+        <div class="row g-4 py-1 row-cols-lg-1 justify-content-between">
+        <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-warning" id="try-again">Try again</button>
+      
+        
+        <button type="button" class="btn btn-info" id="googleIt">Google it!</button>
+      
+        
+        <button type="button" class="btn btn-light" id="goBack">Go back</button></a>
+
+        </div>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+
+    <!-- FOOTER SECTION -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-3 border-top">
+          <p class="col-md-4 mb-0 text-muted">&copy; 2022 Bored</p>
+      
+          <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img class="bi me-2" src="/assets/img/bored.svg" width="40" height="32"></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#choose-activity" class="nav-link px-2 text-muted">Get started</a></li>
+            <li class="nav-item"><a href="#featured-3" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+        </footer>
+    </div>
+
+  <!-- JS to Execute Bored-->
+  <script src="assets/js/script.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
